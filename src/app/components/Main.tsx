@@ -5,7 +5,7 @@ function Main() {
   return (
     <div className="flex flex-col  w-[100vw] h-[98vh]   mx-auto">
       <div className="flex justify-between items-center font-bold uppercase text-white h-auto">
-        <h2 className="text-4xl tracking-widest  transition-all duration-100 py-6 px-0  select-none hover:bg-red-900 cursor-pointer">
+        <h2 className="text-4xl tracking-widest  transition-all duration-100 py-6 px-0  select-none hover:bg-red-900 cursor-pointer px-4">
           Movie Bucket List
         </h2>
         <nav className="flex flex-row items-center">
@@ -33,23 +33,23 @@ function Main() {
           Movie Bucket List
         </h3>
         <div className="flex flex-col justify-center items-end align-bottom  w-[70rem] font-bold ">
-          <p className="mb-1 text-lg tracking-wide text-end">
+          <p className="leading-[30px] text-lg tracking-wide text-end">
             Create your own personal movie collection with{" "}
             <i className=" underline">Movie Bucket List</i>.
           </p>
 
-          <p className="my-1 text-lg tracking-wide">
+          <p className=" leading-[30px]  text-lg tracking-wide">
             <i className="underline">Movie Bucket List</i> gives you movie
             sagestions based on previous selections, finding movies you might
-            enjoy easier.
+            enjoy.
           </p>
 
-          <p className="my-1 text-lg tracking-wide">
+          <p className="leading-[30px] text-lg tracking-wide">
             With the ability to view any movie in realtime. You can filter and
             select from any filter category.
           </p>
 
-          <p className="my-1 text-lg tracking-wide">
+          <p className=" leading-[30px] text-lg tracking-wide">
             From critically acclaimed, new relics or genres specific, you can
             find and build your movie list here.
           </p>
